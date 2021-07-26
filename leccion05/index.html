@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Añadiendo  información de autor de la página y descripción para mejora en las búsquedas-->
+    <meta name="Diana Lorena Herrera Rodríeguz" content="Enseñando fundamentos de HML">
+        <!-- Añadiendo un icono favorito a la página-->
+    <link rel="shortcut icon" href="./hacker_101114.ico" type="image/vnd.microsoft.icon" >
+    <title>Énfasis y más</title>
+</head>
+<body>
+    <!-- strom. entasiza texto -->
+    <h1><strong>Típos de datos</strong> en MySQL</h1>
+    <!--em: cursiva sirve para enfatizar textos-->
+    <p><em>TEXTO</em>: Para almacenar texto usamos cadenas de caracteres. 
+    Las cadenas se colocan entre comillas simples. Podemos almacenar dígitos con los que no
+     se realizan operaciones matemáticas, por ejemplo, códigos de identificación, números de 
+    documentos, números telefónicos. Tenemos los siguientes tipos: varchar, char y text.</p>
+    <p><em>NUMEROS</em>: Existe variedad de tipos numéricos para representar
+     enteros, negativos, decimales. Para almacenar valores enteros, por ejemplo, en campos que
+     hacen referencia a cantidades, precios, etc., usamos el tipo integer. Para almacenar valores
+     con decimales utilizamos: float o decimal.</p>
+    <p><em>FECHAS Y HORAS</em>: para guardar fechas y horas dispone de varios
+     tipos: date (fecha), datetime (fecha y hora), time (hora), year (año) y timestamp.</p>
+<hr>
+     <strong><h1><b>Negrita</b>, <i>Cursiva</i>, <u>Subrayado</u></h1></strong>
+
+     <!-- nombres científicos -->
+<p>
+    El colibrí garganta de rubí (<i>Archilochus colubris</i>)
+    es el colibrí más común en el este de América del Norte.
+  </p>
+  
+  <!-- extranjerismos
+    uk-lant Ingés de reino unido
+    id  indonesia
+    fr Frances-->
+  <p>
+
+    El menú era un mar de palabras exóticas como <i lang="uk-latn">vatrushka</i>,
+    <i lang="id">nasi goreng</i> y <i lang="fr">soupe à l'oignon</i>.
+  </p>
+
+  <!-- un error ortográfico reconocido -->
+  <p>
+    Algún día aprenderé a deletrear mejor.
+  </p>
+  
+  <!-- Palabras clave destacadas en una serie de instrucciones -->
+  <ol>
+    <li>
+      <b>Corta</b> dos piezas de la hogaza de pan.
+    </li>
+    <li>
+      <b>Inserta</b> una rodaja de tomate y una hoja de
+      lechuga entre las rebanadas de pan.
+    </li>
+  </ol>
+<hr>
+  <!--Listas de definiciones -->
+  <h1><strong>Listas de definiciones</strong></h1>
+  <dl>
+    <dt><strong> SGMl </strong></dt>
+    <dd>Metalenguaje para la definición de otros lenguajes de marcado</dd>
+  
+    <dt>XML</dt>
+    <dd>Lenguaje basado en SGML y que se emplea para describir datos</dd>
+  
+    <dt>RSS</dt>
+    <dt>GML</dt>
+    <dt>XHTML</dt>
+    <dt>SVG</dt>
+    <dt>XUL</dt>
+    <dd>Lenguajes derivados de XML para determinadas aplicaciones</dd>
+  </dl>
+  <hr>
+  <h1><strong>Marcado de tiempo</strong></h1>
+  
+  <!-- Fecha simple estándar -->
+  <ol>
+  <li><time datetime="2021-01-20">20 Enero 2021</time></i>
+    <!-- Solo año y mes -->
+  <li><time datetime="2021-01">Enero 2021</time></li>
+  <!-- Solo mes y día -->
+  <li><time datetime="01-20">20 Enero 2021</time></li>
+  <!-- Solo tiempo, horas y minutos -->
+  <li><time datetime="19:30">19:30</time></li>
+  <!-- ¡También puedes hacer segundos y milisegundos! -->
+  <li><time datetime="19:30:01.856">19:30:01.856</time></li>
+  <!-- Fecha y hora -->
+  <li><time datetime="2021-01-20T19:30">7.30pm, 20 Enero 2021</time></li>
+  <!-- Fecha y hora con desplazamiento de zona horaria -->
+  <li><time datetime="2021-01-20T19:30+01:00">7.30pm, 20 Enero 2021 es 8.30pm en Francia</time></li>
+  <!-- Llamar a un número de semana específico -->
+  <li><time datetime="2021-W04">La cuarta semana de 2021</time></li>
+</ol>
+</body>
+</html>
